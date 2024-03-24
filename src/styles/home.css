@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 4rem;
+}
+
+main h2 {
+    margin-top: 3.5rem;
+    font-size: 2rem;
+}
+
+main img {
+    filter: drop-shadow(1rem 0.7rem 0.5rem var(--text-color-destaque));
+}
+
+main button {
+    background-image: url(../assets/image/btn1.jpg);
+}
