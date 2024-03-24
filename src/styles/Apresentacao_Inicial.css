@@ -1,0 +1,27 @@
+body {
+  background-image: url(../assets/image/BG_Mobile.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--text-color-destaque);
+  height: 100vh;
+  font-weight: bold;
+  font-family: var(--font-text);
+  font-size: 2.5rem;
+  margin: 0.5rem;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+#ano {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
