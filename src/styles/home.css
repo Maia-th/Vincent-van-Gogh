@@ -26,5 +26,6 @@ main img {
 }
 
 main button.btn1 {
+  margin-top: 5.5rem;
   background-image: url(../assets/image/btn1.jpg);
 }
