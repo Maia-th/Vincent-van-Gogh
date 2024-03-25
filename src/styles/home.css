@@ -9,6 +9,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  height: 90vh;
   width: 90vw;
   margin: auto;
   align-items: end;
@@ -17,25 +18,26 @@ main {
 .homeSection {
   display: flex;
   flex-direction: column;
-  margin-top: 20rem;
+  margin-top:auto ;
   text-align: right;
 }
 
 main h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 main h2 {
-  margin-top: 3.5rem;
+  margin-top: 3.9rem;
   font-size: 2.5rem;
 }
 
-main img {
-  filter: drop-shadow(1rem 0.7rem 0.5rem var(--text-color-destaque));
+main button.btn1 {
+  font-size: 2rem;
+  padding: 1rem;
+  background-image: url(../assets/image/btn2.jpg);
 }
 
-main button.btn1 {
-  margin-top: 5.5rem;
-  font-size: 2rem;
-  background-image: url(../assets/image/btn2.jpg);
+.centralizaButton {
+  justify-content: right;
+  margin-top: 5rem;
 }
