@@ -1,22 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../assets/icon/favicon.ico"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../assets/icon/favicon.ico" />
     <title>Van Gogh</title>
     <script type="text/javascript" src="src/scripts/body_height.js"></script>
-    <link rel="stylesheet" href="../styles/reset.css">
+    <script type="text/javascript" src="../scripts/menu.js"></script>
+    <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/variaveis.css" />
-    <link rel="stylesheet" href="../styles/home.css">
-</head>
-<body>
-    <header></header>
+    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="stylesheet" href="../styles/menu.css" />
+  </head>
+  <body>
+    <header>
+      <div class="Menu-Mobile">
+        <div class="menu-Icon">
+          <button class="mIcon" onclick="menuShow()">
+            <img src="../assets/icon/menu.png" alt="Icone do Menu" />
+          </button>
+        </div>
+        <div class="area_menu">
+          <nav id="Menu-Open">
+            <ul>
+              <li>
+                <a href="../pages/home.html" onclick="menuShow()">Inicio</a>
+              </li>
+              <li>
+                <a href="../pages/biografia.html" onclick="menuShow()"
+                  >Biografia</a
+                >
+              </li>
+              <li>
+                <a href="../pages/obras.html" onclick="menuShow()">Obras</a>
+              </li>
+              <li>
+                <a href="../pages/sobre.html" onclick="menuShow()"
+                  >Curiosidades</a
+                >
+              </li>
+              <li><a href="" onclick="menuShow()">Sobre</a></li>
+              <li>
+                <a href="" onclick=""
+                  ><img
+                    class="light"
+                    src="../assets/icon/brightness.png"
+                    alt="Modo Claro"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
     <main>
-        <h1>Vincent van Gogh</h1>
-        <img src="../assets/image/Vincent_Van_Gogh.png" alt="Autoretrato Van Gogh">
-        <h2>“Entre a LOUCURA e a GENIALIDADE”</h2>
-        <a href="../pages/home.html"><button>BIOGRAFIA</button></a>
+      <h1>Vincent van Gogh</h1>
+      <img
+        src="../assets/image/Vincent_Van_Gogh.png"
+        alt="Autoretrato Van Gogh"
+      />
+      <h2>“Entre a LOUCURA e a GENIALIDADE”</h2>
+      <a href="../pages/biografia.html"
+        ><button class="navegacao btn1">BIOGRAFIA</button></a
+      >
     </main>
-</body>
+  </body>
 </html>

@@ -1,0 +1,28 @@
+/* Mobile */
+.mIcon img {
+  width: 4.5rem;
+}
+
+.area_menu {
+  display: flex;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+#Menu-Open {
+  width: 70vw;
+  height: 0vh;
+  background-color: var(--bg-color-menu_footer-dark);
+  overflow: hidden;
+}
+
+#Menu-Open ul {
+  margin-top: 5rem;
+}
+
+#Menu-Open ul li {
+  margin-top: 1.5rem;
+}

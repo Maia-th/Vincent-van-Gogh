@@ -1,34 +1,62 @@
-body{
-    margin: 0.5rem;
-    font-family: var(--font-text);
-    background-color: var( --bg-color-dark);
-    color: var(--text-color);
+body {
+  margin: 0.5rem;
+  font-family: var(--font-text);
+  background-color: var(--bg-color-dark);
+  color: var(--text-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-titulos);
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-titulos);
+  margin: 0;
 }
 
 p {
-    text-indent: 0.5rem;
-    line-height: 0.8;
+  text-indent: 0.5rem;
+  line-height: 0.8;
 }
 
-button {
-    margin-top: 5.5rem;
-    font-size: 3rem;
-    font-weight: bold;
-    padding: 0.5rem 3.5rem;
-    border: solid 0.1rem;
-    border-radius: 10rem;
-    color: var(--text-color-destaque);
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.3s;
+ul {
+  list-style: none;
+  font-size: 2rem;
+  padding: 0;
 }
 
-button:hover {
-    filter: brightness(1.5);
+a {
+  text-decoration: none;
+  color: var(--font-text);
+}
+
+button.navegacao {
+  margin-top: 5.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0.5rem 3.5rem;
+  border: solid 0.1rem;
+  border-radius: 10rem;
+  color: var(--text-color-destaque);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.3s;
+}
+
+button.mIcon {
+  background: none;
+  border: none;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+button.navegacao:hover {
+  filter: brightness(1.5);
+}
+
+.light {
+  width: 3rem;
 }
