@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../assets/icon/favicon.ico" />
+    <title>Van Gogh</title>
+    <script type="text/javascript" src="../scripts/menu.js"></script>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/variaveis.css" />
+    <link rel="stylesheet" href="../styles/menu.css" />
+    <link rel="stylesheet" href="../styles/obras.css" />
+  </head>
+  <body>
+    <header>
+      <div class="Menu-Mobile">
+        <div class="menu-Icon">
+          <button class="mIcon" onclick="menuShow()">
+            <img src="../assets/icon/menu.png" alt="Icone do Menu" />
+          </button>
+        </div>
+        <div class="area_menu">
+          <nav id="Menu-Open">
+            <ul>
+              <li>
+                <a href="home.html" onclick="menuShow()">Inicio</a>
+              </li>
+              <li>
+                <a href="biografia.html" onclick="menuShow()">Biografia</a>
+              </li>
+              <li>
+                <a href="obras.html" onclick="menuShow()">Obras</a>
+              </li>
+              <li>
+                <a href="curiosidades.html" onclick="menuShow()"
+                  >Curiosidades</a
+                >
+              </li>
+              <li><a href="sobre.html" onclick="menuShow()">Sobre</a></li>
+              <li>
+                <a href="" onclick=""
+                  ><img
+                    class="light"
+                    src="../assets/icon/brightness.png"
+                    alt="Modo Claro"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="ObrasSection">
+        <h1>Obras</h1>
+        <h2>
+          Algumas das obras mais famosas de Van Gogh. Para obter mais
+          informações de cada obra, clique em cima dela !
+        </h2>
+      </section>
+      <div class="centralizaButton">
+        <a href="curiosidades.html"
+          ><button class="navegacao btn3">CURIOSIDADES</button></a
+        >
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 67rem;
+}
+
+.ObrasSection {
+  margin: 3rem 4rem 0 4rem;
+}
+
+main h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+main h2 {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+main button.btn3 {
+  background-image: url(../assets/image/btn3.jpg);
+}
