@@ -1,9 +1,9 @@
 function menuShow() {
   let menuArea = document.getElementById("Menu-Open");
 
-  if (menuArea.style.height == "100vh") {
-    menuArea.style.height = "0vh";
+  if (menuArea.style.width == "60vw") {
+    menuArea.style.width = "0vh";
   } else {
-    menuArea.style.height = "100vh";
+    menuArea.style.width = "60vw";
   }
 }
