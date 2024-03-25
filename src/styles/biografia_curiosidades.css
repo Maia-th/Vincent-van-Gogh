@@ -5,7 +5,8 @@ main {
   max-width: 67rem;
 }
 
-.biografiaSection {
+.biografiaSection,
+.CuriosidadesSection {
   margin: 3rem 4rem 0 4rem;
 }
 
@@ -21,4 +22,8 @@ main h2 {
 
 main button.btn2 {
   background-image: url(../assets/image/btn2.jpg);
+}
+
+main button.btn4 {
+  background-image: url(../assets/image/btn4.jpg);
 }
