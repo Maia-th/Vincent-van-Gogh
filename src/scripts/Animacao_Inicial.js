@@ -2,10 +2,10 @@
 document.addEventListener("DOMContentLoaded", function () {
   var texto =
     "Embarque em uma jornada fascinante pela vida e obra de um dos mais brilhantes artistas do século XIX !";
-  var velocidade = 60; // Velocidade de digitação de cada letra
+  var velocidade = 65; // Velocidade de digitação de cada letra
   var indice = 0; // Índice da letra a ser digitada
   var pElement = document.getElementById("ano"); // Seleciona o paragrafo que contem o ano atual
-  var duracao = 20000; // Define a duração total da animação
+  var duracao = 15000; // Define a duração total da animação
   var anoFinal = 1853; // Condiçao de parada da animação, esse ano foi escolhido por ser o ano de nascimento de Van Gogh
   var intervalo = duracao / (parseInt(pElement.textContent) - anoFinal); // Define a velocidade em que os numeros são trocados
 
