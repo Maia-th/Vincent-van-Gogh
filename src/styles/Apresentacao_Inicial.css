@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background-image: url(../assets/image/BG_Inicio.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,7 +9,6 @@ body {
   font-weight: bold;
   font-family: var(--font-text);
   font-size: 2.5rem;
-  margin: 0.5rem;
 }
 
 .apresentacao {
