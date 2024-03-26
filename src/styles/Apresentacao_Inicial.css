@@ -1,8 +1,8 @@
 body {
-  background-image: url(../assets/image/BG_Mobile.jpeg);
+  background-image: url(../assets/image/BG_Inicio.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   color: var(--text-color-destaque);
   height: 100vh;
   font-weight: bold;
