@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color:#333333;
   background-image: url(../assets/image/BG_Inicio.jpg);
   background-size: cover;
   background-repeat: no-repeat;
