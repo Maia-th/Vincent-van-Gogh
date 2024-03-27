@@ -32,16 +32,15 @@ a {
 }
 
 button.navegacao {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  padding: 0.5rem 3.5rem;
-  border: solid 0.1rem;
-  border-radius: 10rem;
-  color: var(--text-color-destaque);
+  border: 0.1rem outset var(--text-color-destaque);
+  border-radius: 5rem;
+  color: var(--text-color);
   cursor: pointer;
+  background-color: var(--bg-color-menu_footer-dark);
   background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s;
+  background-size: contain;
 }
 
 .centralizaButton {
@@ -58,10 +57,6 @@ button.mIcon {
   top: 0;
   left: 0;
   z-index: 10;
-}
-
-button.navegacao:hover {
-  filter: brightness(1.2);
 }
 
 .light {

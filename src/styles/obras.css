@@ -22,4 +22,6 @@ main h2 {
 
 main button.btn3 {
   background-image: url(../assets/image/btn3.jpg);
+  padding: 0.5rem 1rem 0.5rem 4.5rem;
+  font-size: 2rem;
 }
