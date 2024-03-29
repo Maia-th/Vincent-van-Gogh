@@ -21,11 +21,11 @@ main h2 {
 }
 
 main button.btn2 {
-  background-image: url(../assets/image/btn2.jpg);
+  background-image: url(../assets/image/btn2.webp);
   padding: 0.5rem 1rem 0.5rem 4.7rem;
 }
 
 main button.btn4 {
-  background-image: url(../assets/image/btn4.jpg);
+  background-image: url(../assets/image/btn4.webp);
   padding: 0.5rem 1rem 0.5rem 5.2rem;
 }
