@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-image: url(../assets/image/Van_Gogh.webp);
+  background-image: url(../assets/image/Van_Gogh.webp);
   background-position: right;
   color: var(--text-color);
 }
