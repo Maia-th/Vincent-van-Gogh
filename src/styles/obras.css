@@ -2,7 +2,7 @@ main {
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width:80vw;
+  max-width: 80vw;
 }
 
 .ObrasSection {
@@ -13,18 +13,19 @@ main {
 }
 
 .ObrasSection article {
-  flex: 1 1 25.6rem;
   margin: 3rem 1rem 1rem 1rem;
 }
 
-.CardObras{
+.CardObras {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 80vw;
 }
 
-.ObrasSection article img{
+.ObrasSection article img {
   width: 100%;
+  max-width: 50rem;
 }
 
 main h1 {
@@ -34,12 +35,12 @@ main h1 {
 
 main h2 {
   margin-top: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 
 main button.btn3 {
-  background-image: url(../assets/image/btn3.jpg);
-  padding: 0.5rem 1rem 0.5rem 4.5rem;
+  background-image: url(../assets/image/btn3.webp);
+  padding: 0.5rem 1rem 0.5rem 3.2rem;
   font-size: 2rem;
 }

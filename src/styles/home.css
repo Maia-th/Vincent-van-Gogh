@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(../assets/image/Van_Gogh.jpg);
+  background-image: url(../assets/image/Van_Gogh.webp);
   background-position: right;
   color: var(--text-color);
 }
@@ -32,8 +32,8 @@ main h2 {
 }
 
 main button.btn1 {
-  padding: 0.5rem 1rem 0.5rem 4.7rem;
-  background-image: url(../assets/image/btn1.jpg);
+  padding: 0.5rem 1rem 0.5rem 4rem;
+  background-image: url(../assets/image/btn1.webp);
 }
 
 .centralizaButton {
