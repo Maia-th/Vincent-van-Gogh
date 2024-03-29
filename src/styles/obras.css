@@ -2,11 +2,29 @@ main {
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: 67rem;
+  max-width:80vw;
 }
 
 .ObrasSection {
-  margin: 3rem 4rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0 0 1rem;
+  align-items: center;
+}
+
+.ObrasSection article {
+  flex: 1 1 25.6rem;
+  margin: 3rem 1rem 1rem 1rem;
+}
+
+.CardObras{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+.ObrasSection article img{
+  width: 100%;
 }
 
 main h1 {
