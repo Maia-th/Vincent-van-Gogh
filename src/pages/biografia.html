@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="../assets/icon/favicon.ico" />
     <title>Van Gogh</title>
-    <script type="text/javascript" src="../scripts/menu.js"></script>
+    <script src="../scripts/menu.js"></script>
     <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/variaveis.css" />
     <link rel="stylesheet" href="../styles/menu.css" />
@@ -118,7 +118,12 @@
         </article>
       </section>
       <div class="centralizaButton">
-        <a href="obras.html"><button class="navegacao btn2">OBRAS</button></a>
+        <button
+          onclick="window.location.href='obras.html'"
+          class="navegacao btn2"
+        >
+          OBRAS
+        </button>
       </div>
     </main>
   </body>

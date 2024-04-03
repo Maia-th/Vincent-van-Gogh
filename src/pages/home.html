@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="../assets/icon/favicon.ico" />
     <title>Van Gogh</title>
-    <script type="text/javascript" src="../scripts/body_height.js"></script>
-    <script type="text/javascript" src="../scripts/menu.js"></script>
+    <script src="../scripts/body_height.js"></script>
+    <script src="../scripts/menu.js"></script>
     <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/variaveis.css" />
     <link rel="stylesheet" href="../styles/home.css" />
@@ -27,9 +27,7 @@
                 <a href="home.html" onclick="menuShow()">Inicio</a>
               </li>
               <li>
-                <a href="biografia.html" onclick="menuShow()"
-                  >Biografia</a
-                >
+                <a href="biografia.html" onclick="menuShow()">Biografia</a>
               </li>
               <li>
                 <a href="obras.html" onclick="menuShow()">Obras</a>
@@ -58,9 +56,13 @@
         <h1>Vincent van Gogh</h1>
         <h2>“Entre a LOUCURA e a GENIALIDADE”</h2>
         <div class="centralizaButton">
-        <a href="biografia.html"
-          ><button class="navegacao btn1">BIOGRAFIA</button></a
-        ></div>
+          <button
+            onclick="window.location.href='biografia.html'"
+            class="navegacao btn1"
+          >
+            BIOGRAFIA
+          </button>
+        </div>
       </section>
     </main>
   </body>
