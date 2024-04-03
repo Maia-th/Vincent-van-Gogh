@@ -17,14 +17,14 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: auto;
-  width: 90vw;
+  width: 80vw;
   text-align: center;
   justify-content: center;
 }
 
 #ano {
   position: fixed;
-  width: 90vw;
+  width: 80vw;
   margin: auto;
   text-align: center;
   bottom: 0;
