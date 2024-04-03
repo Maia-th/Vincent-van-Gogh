@@ -7,13 +7,18 @@ body {
 }
 
 main {
-  display: flex;
+  position: relative;
+  margin-top: 3rem;
   width: 80vw;
   height: 80vh;
-  margin: auto;
+  margin: 4rem auto 0 auto;
 }
 
 main h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   font-size: 4rem;
   text-align: center;
 }
