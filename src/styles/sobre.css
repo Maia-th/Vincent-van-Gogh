@@ -38,6 +38,13 @@ main p, .Contatos ul li  {
   margin: auto;
 }
 
+.Contatos ul li {
+  margin-bottom: 1rem;
+}
+.Contatos img {
+  width: 1.8rem;
+}
+
 footer {
   position: fixed;
   padding: 1rem;
@@ -57,6 +64,6 @@ footer h3 {
 @media (max-height: 555px) {
 .divScroll {
   overflow: scroll;
-  height: 40vh;
+  height: 50dvh;
 }
 }
