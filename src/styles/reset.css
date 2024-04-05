@@ -43,6 +43,8 @@ button.navegacao {
   background-color: var(--bg-color-menu_footer-dark);
   background-repeat: no-repeat;
   background-size: contain;
+  flex-shrink: 1;
+  overflow: hidden;
 }
 
 .centralizaButton {
