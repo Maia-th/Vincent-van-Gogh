@@ -2,13 +2,21 @@ main {
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: 80vw;
+  width: 80vw;
 }
 
 .ObrasSection {
   display: flex;
   flex-direction: column;
   margin: 3rem 0 0 1rem;
+  align-items: center;
+}
+
+.Linha1, .Linha2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
@@ -23,9 +31,15 @@ main {
   width: 80vw;
 }
 
+.ObraDescricao {
+  display: none;
+  max-width: 70vw;
+  margin: auto;
+}
+
 .ObrasSection article img {
   width: 100%;
-  max-width: 50rem;
+  max-width: 40rem;
 }
 
 main h1 {
@@ -37,6 +51,16 @@ main h2 {
   margin-top: 1rem;
   font-size: 1.8rem;
   text-align: center;
+}
+
+main h3 {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+}
+
+main h4 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
 main button.btn3 {
