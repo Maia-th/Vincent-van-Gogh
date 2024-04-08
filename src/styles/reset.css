@@ -66,3 +66,7 @@ button.mIcon {
 .light {
   width: 3rem;
 }
+
+main .modal-content {
+  background-color: var(--bg-color-menu_footer-dark);
+}

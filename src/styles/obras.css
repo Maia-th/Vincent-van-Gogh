@@ -31,10 +31,8 @@ main {
   width: 80vw;
 }
 
-.ObraDescricao {
-  display: none;
-  max-width: 70vw;
-  margin: auto;
+.CardObras img {
+  cursor: pointer;
 }
 
 .ObrasSection article img {
@@ -67,4 +65,37 @@ main button.btn3 {
   background-image: url(../assets/image/btn3.webp);
   padding: 0.5rem 1rem 0.5rem 3.2rem;
   font-size: 2rem;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100dvh;
+  overflow: auto;
+  background-color: transparent;
+}
+
+.modal-content {
+  margin: 20% auto;
+  padding: 20px;
+  border-radius: 2rem;
+  width: 60%;
+  max-width: 60rem;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: var(--text-color-destaque);
+  text-decoration: none;
+  cursor: pointer;
 }
