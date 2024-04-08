@@ -22,12 +22,17 @@ main h2 {
   font-size: 2.8rem;
 }
 
-main p, .Contatos ul li  {
+.Contatos ul li  {
   font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 
-.SobreMim p, .Contatos ul {
+.SobreMim p {
   margin-left: 1rem;
+}
+
+.Contatos ul {
+  text-align: center;
 }
 
 .sobreSection {
@@ -38,9 +43,6 @@ main p, .Contatos ul li  {
   margin: auto;
 }
 
-.Contatos ul li {
-  margin-bottom: 1rem;
-}
 .Contatos img {
   width: 1.8rem;
 }
