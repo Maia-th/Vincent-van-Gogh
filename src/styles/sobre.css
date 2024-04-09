@@ -22,13 +22,31 @@ main h2 {
   font-size: 2.8rem;
 }
 
-.Contatos ul li  {
+.Contatos ul li {
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
 .SobreMim p {
   margin-left: 1rem;
+}
+
+.SobreMim .imgScroll {
+  display: none;
+  justify-content: center;
+}
+
+.SobreMim .imgScroll img {
+  width: 2rem;
+  animation: down 1.5s infinite;
+}
+
+@keyframes down {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-5px, 0); }
+  50% { transform: translate(5px, 0); }
+  75% { transform: translate(-5px, 0); }
+  100% { transform: translate(5px, 0); }
 }
 
 .Contatos ul {
@@ -64,8 +82,14 @@ footer h3 {
 }
 
 @media (max-height: 555px) {
-.divScroll {
-  overflow: scroll;
-  height: 50dvh;
-}
+  .divScroll {
+    overflow: scroll;
+    height: 50dvh;
+  }
+  .SobreMim .imgScroll {
+    display: flex;
+  }
+  .SobreMim p {
+    margin: 1rem 0 0.5rem 1rem;
+  }
 }
