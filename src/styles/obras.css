@@ -80,7 +80,7 @@ main button.btn3 {
 }
 
 .modal-content {
-  margin: 20% auto;
+  margin: 15% auto 1rem auto;
   padding: 20px;
   border-radius: 2rem;
   width: 60%;
