@@ -5,11 +5,16 @@ body {
   color: var(--text-color);
 }
 
+header .Menu-Desktop {
+  background-color: transparent;
+}
+
 main {
   display: flex;
   width: 80vw;
   height: 90vh;
   margin: auto;
+  max-width: 95rem;
 }
 
 main h1 {
@@ -91,5 +96,21 @@ footer h3 {
   }
   .SobreMim p {
     margin: 1rem 0 0.5rem 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  main h1 {
+    padding-top: 2.5rem;
+    font-size: 4.5rem;
+  }
+  main h2 {
+    font-size: 3rem;
+  }
+  main p {
+    font-size: 2rem;
+  }
+  .Contatos ul li {
+    font-size: 1.9rem;
   }
 }

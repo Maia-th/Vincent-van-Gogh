@@ -3,6 +3,7 @@ main {
   flex-direction: column;
   margin: auto;
   width: 80vw;
+  max-width: 120rem;
 }
 
 .biografiaSection,
@@ -28,4 +29,17 @@ main button.btn2 {
 main button.btn4 {
   background-image: url(../assets/image/btn4.webp);
   padding: 0.5rem 1rem 0.5rem 3.5rem;
+}
+
+@media (min-width: 768px) {
+  main h1 {
+    padding-top: 2.5rem;
+    font-size: 4.5rem;
+  }
+  main h2 {
+    font-size: 3rem;
+  }
+  main p {
+    font-size: 1.6rem;
+  }
 }

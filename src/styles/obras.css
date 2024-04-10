@@ -99,3 +99,41 @@ main button.btn3 {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (min-width: 768px) {
+  main {
+    width: 90vw;
+  }
+  .CardObras {
+    width: 90vw;
+  }
+  main h1 {
+    padding-top: 2.5rem;
+    font-size: 4.5rem;
+  }
+  main h2 {
+    font-size: 2.3rem;
+  }
+  main h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  
+  main h4 {
+    margin-top: 1rem;
+    font-size: 1.9rem;
+  }
+
+  main p {
+    font-size: 1.7rem;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+
+  .ObrasSection article img {
+    max-width: 50rem;
+  }
+  
+}

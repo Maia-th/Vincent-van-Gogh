@@ -70,3 +70,12 @@ button.mIcon {
 main .modal-content {
   background-color: var(--bg-color-menu_footer-dark);
 }
+
+@media (min-width: 768px) {
+  .centralizaButton,.Menu-Mobile {
+    display: none;
+  }
+  header .Menu-Desktop {
+    display: block;
+  }
+}
