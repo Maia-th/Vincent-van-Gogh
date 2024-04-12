@@ -3,7 +3,7 @@ main {
   flex-direction: column;
   margin: auto;
   width: 80vw;
-  max-width: 120rem;
+  max-width: 100rem;
 }
 
 .biografiaSection,
@@ -36,10 +36,17 @@ main button.btn4 {
     padding-top: 2.5rem;
     font-size: 4.5rem;
   }
+
   main h2 {
     font-size: 3rem;
   }
+
   main p {
     font-size: 1.6rem;
+  }
+
+  .biografiaSection,
+  .CuriosidadesSection {
+    margin-left: 0;
   }
 }

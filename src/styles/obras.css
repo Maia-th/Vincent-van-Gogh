@@ -12,7 +12,8 @@ main {
   align-items: center;
 }
 
-.Linha1, .Linha2{
+.Linha1,
+.Linha2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -31,13 +32,15 @@ main {
   width: 80vw;
 }
 
-.CardObras img {
-  cursor: pointer;
-}
-
 .ObrasSection article img {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   max-width: 40rem;
+  cursor: pointer;
+  border: 1rem solid #d9c29f;
+  padding: 0.5rem;
+  background-color: #eae2b7;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 main h1 {
@@ -104,6 +107,7 @@ main button.btn3 {
   main {
     width: 90vw;
   }
+
   .CardObras {
     width: 90vw;
   }
@@ -111,14 +115,16 @@ main button.btn3 {
     padding-top: 2.5rem;
     font-size: 4.5rem;
   }
+
   main h2 {
     font-size: 2.3rem;
   }
+
   main h3 {
     margin-top: 1rem;
     font-size: 2rem;
   }
-  
+
   main h4 {
     margin-top: 1rem;
     font-size: 1.9rem;
@@ -127,13 +133,25 @@ main button.btn3 {
   main p {
     font-size: 1.7rem;
   }
-  
+
+  .ObrasSection {
+    margin-left: 0;
+  }
+
+  .ObrasSection article img {
+    width: 100%;
+    margin: auto;
+    max-width: 45rem;
+    cursor: pointer;
+    border: 1.5rem solid #d9c29f;
+    padding: 1rem;
+    background-color: #eae2b7;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+  }
 }
 
 @media (min-width: 1200px) {
-
   .ObrasSection article img {
     max-width: 50rem;
   }
-  
 }
