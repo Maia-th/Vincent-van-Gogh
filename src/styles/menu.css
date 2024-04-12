@@ -14,7 +14,7 @@
 }
 
 #Menu-Open {
-  width: 0vW;
+  width: 0vw;
   height: 100vh;
   background-color: var(--bg-color-menu_footer-dark);
   overflow: hidden;

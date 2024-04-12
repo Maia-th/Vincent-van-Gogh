@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color:#333333;
+  background-color: #333333;
   background-image: url(../assets/image/BG_Inicio.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body {
 }
 
 @media (min-width: 768px) {
- body {
-  font-size: 3rem;
- }
+  body {
+    font-size: 3rem;
+  }
 }

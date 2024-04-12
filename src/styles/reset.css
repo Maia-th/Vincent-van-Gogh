@@ -7,6 +7,11 @@ body {
   color: var(--text-color);
 }
 
+/*O modo claro será desenvolvido posteriormente!*/
+header nav .light {
+  display: none;
+}
+
 h1,
 h2,
 h3,
@@ -72,7 +77,8 @@ main .modal-content {
 }
 
 @media (min-width: 768px) {
-  .centralizaButton,.Menu-Mobile {
+  .centralizaButton,
+  .Menu-Mobile {
     display: none;
   }
   header .Menu-Desktop {

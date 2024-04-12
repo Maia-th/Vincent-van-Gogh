@@ -1,8 +1,8 @@
 :root {
   /*Fontes*/
   font-size: 10px;
-  --font-titulos: 'Lobster';
-  --font-text:'Montserrat';
+  --font-titulos: "Lobster";
+  --font-text: "Montserrat";
 
   /*Cores*/
   --text-color: #ffffff;
@@ -17,11 +17,11 @@
 }
 
 @font-face {
-  font-family: 'Lobster';
+  font-family: "Lobster";
   src: url(../assets/fonts/Lobster.ttf);
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   src: url(../assets/fonts/Montserrat.ttf);
 }
